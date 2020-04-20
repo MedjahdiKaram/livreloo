@@ -71,6 +71,33 @@
       "restaurant_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801241007_74ed657c-ff28-4357-b6b2-30c53390b5db.jpg",
       "title": "L'échapatoire",
       "star": "",
+      "foods_menu" : [
+        {"category_name" : "Bésilien" , 
+          "foods" : [
+            {"food_name" : "Plat sao paulo", 
+             "food_price" : "500",
+             "food_ingredients" : "Salade, Tomate, Huile d'olive"
+            } , 
+            {"food_name" : "Rio del food", 
+              "food_price" : "400",
+              "food_ingredients" : "Viande, Tomate, Huile de moteurs"
+             } 
+          ]
+        },
+        {"category_name" : "Boissons" , 
+          "foods" : [
+            {"food_name" : "Fanta 33cl", 
+             "food_price" : "100",
+             "food_ingredients" : ""
+            } , 
+            {"food_name" : "Hammoud Boualem 1L", 
+              "food_price" : "150",
+              "food_ingredients" : ""
+             } 
+          ]
+        }
+      ],
+      
       "categories": [
         "Fastfood & Pizza"
       ],
