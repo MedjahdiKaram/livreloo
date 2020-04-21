@@ -9,7 +9,7 @@ export default function Suggestions() {
 
   useEffect(() => {
     async function loadSuggestions() {
-      const response = await api.get('suggestions');
+      const response = await api.get('suggestions.json');
       setSuggestions(response.data);
     }
     loadSuggestions();

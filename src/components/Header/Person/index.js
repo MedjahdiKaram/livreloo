@@ -20,7 +20,7 @@ function Person() {
 
   useEffect(() => {
     async function loadProfile() {
-      const response = await api.get('profile');
+      const response = await api.get('profile.json');
       setProfile(response.data);
     }
     loadProfile();

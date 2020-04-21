@@ -11,7 +11,7 @@ function Promotions({ navigation }) {
 
   useEffect(() => {
     async function loadPromotions() {
-      const response = await api.get('promotions');
+      const response = await api.get('promotions.json');
       setPromotions(response.data);
     }
     loadPromotions();

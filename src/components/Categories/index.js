@@ -17,7 +17,7 @@ export default function Categories() {
 
   useEffect(() => {
     async function loadCategories() {
-      const response = await api.get('categories');
+      const response = await api.get('categories.json');
       setCategories(response.data);
     }
     loadCategories();

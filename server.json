@@ -3,8 +3,7 @@
     "name": "Leonardo Barbosa",
     "avatar_url": "https://cdn.imgbin.com/25/15/2/imgbin-computer-icons-avatar-social-media-blog-font-awesome-avatar-X2JH6eX8zi1J01W8VN1gyhW6B.jpg"
   },
-   "categories": [
-    {
+  "categories": [{
       "id": 1,
       "title": "Brésilien",
       "categorie_url": "https://dicasdaflorida.com.br/wp-content/uploads/2014/07/comida-brasileira-restaurante-brasileiro.jpg"
@@ -65,39 +64,41 @@
       "categorie_url": "https://media-cdn.tripadvisor.com/media/photo-s/0f/48/0c/af/marmita-executiva.jpg"
     }
   ],
-  "restaurants": [
-    {
+  "restaurants": [{
       "id": 1,
       "restaurant_url": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201801241007_74ed657c-ff28-4357-b6b2-30c53390b5db.jpg",
       "title": "L'échapatoire",
       "star": "",
-      "foods_menu" : [
-        {"category_name" : "Bésilien" , 
-          "foods" : [
-            {"food_name" : "Plat sao paulo", 
-             "food_price" : "500",
-             "food_ingredients" : "Salade, Tomate, Huile d'olive"
-            } , 
-            {"food_name" : "Rio del food", 
-              "food_price" : "400",
-              "food_ingredients" : "Viande, Tomate, Huile de moteurs"
-             } 
+      "foods_category": [{
+          "category_name": "Bésilien",
+          "foods": [{
+              "food_name": "Plat sao paulo",
+              "food_price": "500",
+              "food_ingredients": "Salade, Tomate, Huile d'olive"
+            },
+            {
+              "food_name": "Rio del food",
+              "food_price": "400",
+              "food_ingredients": "Viande, Tomate, Huile de moteurs"
+            }
           ]
         },
-        {"category_name" : "Boissons" , 
-          "foods" : [
-            {"food_name" : "Fanta 33cl", 
-             "food_price" : "100",
-             "food_ingredients" : ""
-            } , 
-            {"food_name" : "Hammoud Boualem 1L", 
-              "food_price" : "150",
-              "food_ingredients" : ""
-             } 
+        {
+          "category_name": "Boissons",
+          "foods": [{
+              "food_name": "Fanta 33cl",
+              "food_price": "100",
+              "food_ingredients": ""
+            },
+            {
+              "food_name": "Hammoud Boualem 1L",
+              "food_price": "150",
+              "food_ingredients": ""
+            }
           ]
         }
       ],
-      
+
       "categories": [
         "Fastfood & Pizza"
       ],
@@ -149,8 +150,7 @@
       "distance": "5 km"
     }
   ],
-  "suggestions": [
-    {
+  "suggestions": [{
       "id": 1,
       "title": "Boissons",
       "sugg_url": "https://p2.trrsf.com/image/fget/cf/460/0/images.terra.com/2019/10/21/pina-colada.jpg"
@@ -176,8 +176,7 @@
       "sugg_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1FlDyLkEvvGLM-mu_WkRNzRpiMYq19YOfK7P4siZdMTyCBqjL&s"
     }
   ],
-  "promotions": [
-    {
+  "promotions": [{
       "id": 1,
       "categorie": "Promo de  4,99 DA",
       "title": "Promos 4,99",
@@ -206,8 +205,7 @@
       "menu_url": "https://i.ibb.co/qrgG2QJ/Group-4.png"
     }
   ],
-  "offers": [
-    {
+  "offers": [{
       "id": 1,
       "title": "Burger spécial de côtes",
       "offer_url": "https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0R0f00001Dp1W5EAJ/5d65947fe4b07e6da24077ad.jpg&w=710&h=462",
@@ -252,8 +250,7 @@
       "icon": "store"
     }
   ],
-  "purchases": [
-    {
+  "purchases": [{
       "id": 1,
       "date": "Lun - 20 janvier 2020",
       "restaurant_name": "McDonalds's - Mechouar",

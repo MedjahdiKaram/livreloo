@@ -19,7 +19,7 @@ export default function Search() {
 
   useEffect(() => {
     async function showCategories() {
-      const response = await api.get('categories');
+      const response = await api.get('categories.json');
       setCategories(response.data);
     }
     showCategories();

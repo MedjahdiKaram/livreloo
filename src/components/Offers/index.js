@@ -30,7 +30,7 @@ function Offers({ navigation }) {
 
   useEffect(() => {
     async function loadOffers() {
-      const response = await api.get('offers');
+      const response = await api.get('offers.json');
 
       const data = response.data.map(offer => ({
         id: offer.id,

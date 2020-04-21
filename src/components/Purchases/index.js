@@ -29,7 +29,7 @@ export default function Purchases() {
 
   useEffect(() => {
     async function loadPurchases() {
-      const response = await api.get('purchases');
+      const response = await api.get('purchases.json');
 
       setPurchases(response.data);
     }

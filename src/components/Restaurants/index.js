@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import { MaterialIcons } from '@expo/vector-icons';
-
+//import Foodcategory from './Menu/Foodcategory';
 import {
   Container,
   Header,
@@ -25,8 +25,7 @@ export default function Restaurants({ title, display }) {
 
   useEffect(() => {
     async function loadRestaurants() {
-      const response = await api.get('restaurants');
-
+      const response = await api.get('restaurants.json');
       setRestaurants(response.data);
     }
     loadRestaurants();
