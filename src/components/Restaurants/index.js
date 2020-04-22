@@ -20,7 +20,7 @@ import {
 
 import api from '../../services/api';
 
-export default function Restaurants({ title, display }) {
+export default function Restaurants({ navigation, title, display }) {
   const [restaurants, setRestaurants] = useState([]);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export default function Restaurants({ title, display }) {
     }
     loadRestaurants();
   }, []);
-
+  //
   return (
     <Container>
       <Header display={display}>
@@ -39,8 +39,17 @@ export default function Restaurants({ title, display }) {
 
       <RestaurantList>
         {restaurants.map(item => (
-          <Item key={item.id}>
-            <ItemImage source={{ uri: item.restaurant_url }} />
+          <Item
+            key={item.id}
+            onPress={() => {
+              navigation.navigate('FoodCategory', item);
+            }}
+          >
+            <ItemImage
+              source={{
+                uri: item.restaurant_url,
+              }}
+            />
             <ItemInfo>
               <ItemTitle>{item.title}</ItemTitle>
               <ItemDescription>

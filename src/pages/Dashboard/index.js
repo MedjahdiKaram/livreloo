@@ -15,7 +15,7 @@ import Restaurants from '../../components/Restaurants';
 import HeaderLeft from '../../components/Header/HeaderLeft';
 import HeaderRight from '../../components/Header/HeaderRight';
 
-function Dashboard() {
+function Dashboard({ navigation }) {
   return (
     <Container>
       <Address />
@@ -25,7 +25,7 @@ function Dashboard() {
       <Promotions />
       <Offers />
       <Categories />
-      <Restaurants title="Restaurant" display />
+      <Restaurants navigation={navigation} title="Restaurant" display />
     </Container>
   );
 }

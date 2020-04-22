@@ -17,6 +17,7 @@ import Profile from './pages/Profile';
 import Wallet from './pages/Wallet';
 import Item from './pages/Item';
 import Trending from './pages/Trending';
+import FoodCategory from './pages/FoodCategory';
 
 const Routes = createAppContainer(
   createBottomTabNavigator(
@@ -28,6 +29,7 @@ const Routes = createAppContainer(
             Wallet,
             Item,
             Trending,
+            FoodCategory,
           },
           {
             navigationOptions: {
@@ -38,6 +40,20 @@ const Routes = createAppContainer(
           }
         ),
       },
+      // FoodsCategories: {
+      //   screen: createStackNavigator(
+      //     {
+      //       FoodCategory,
+      //     }
+      //     // {
+      //     //   navigationOptions: {
+      //     //     tabBarIcon: ({ tintColor }) => (
+      //     //       <MaterialIcons name="person" size={30} color={tintColor} />
+      //     //     ),
+      //     //   },
+      //     // }
+      //   ),
+      // },
       Recherche: {
         screen: createStackNavigator(
           {
