@@ -70,7 +70,7 @@
       "title": "L'échapatoire",
       "star": "",
       "foods_category": [{
-          "category_name": "Bésilien",
+          "category_id": "6",
           "foods": [{
               "food_name": "Plat sao paulo",
               "food_price": "500",
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "category_name": "Boissons",
+          "category_id": "11",
           "foods": [{
               "food_name": "Fanta 33cl",
               "food_price": "100",
